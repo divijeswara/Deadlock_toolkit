@@ -104,5 +104,8 @@ Feel free to submit pull requests for bug fixes and improvements.
 
 Contact  
 
-For any questions or issues, reach out at divijeswara@gmail.com.  
+For any questions or issues, reach out at
+ sukendubesra@gmail.com
+ htataungkhank71288@gmail.com 
+ divijeswara@gmail.com
 

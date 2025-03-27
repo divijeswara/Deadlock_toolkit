@@ -158,7 +158,7 @@ class DeadlockToolkitGUI:
         self.bankers_algorithm = BankersAlgorithm(self.resource_manager)
         self.deadlock_detector = DeadlockDetector(self.resource_manager)
         self.deadlock_recovery = DeadlockRecovery(self.resource_manager)
-
+#  creae_widgets funtion
     def create_widgets(self):
         main_frame = ttk.Frame(self.root, padding="10")
         main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))

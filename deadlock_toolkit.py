@@ -39,7 +39,7 @@ class ResourceManager:
                 break
         
         return all(finish)
-
+#updated algo
 class BankersAlgorithm:
     def __init__(self, resource_manager):
         self.resource_manager = resource_manager

@@ -81,7 +81,7 @@ class BankersAlgorithm:
             return False
         
         return True
-
+#corrected a bug
 class DeadlockDetector:
     def __init__(self, resource_manager):
         self.resource_manager = resource_manager

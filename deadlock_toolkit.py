@@ -3,7 +3,7 @@ from tkinter import ttk, messagebox
 import matplotlib.pyplot as plt
 import networkx as nx
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-
+#process code
 class Process:
     def __init__(self, pid, allocation, max_demand):
         self.pid = pid

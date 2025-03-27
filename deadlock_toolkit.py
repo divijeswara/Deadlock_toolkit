@@ -3,7 +3,7 @@ from tkinter import ttk, messagebox
 import matplotlib.pyplot as plt
 import networkx as nx
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-#process code
+
 class Process:
     def __init__(self, pid, allocation, max_demand):
         self.pid = pid
@@ -39,7 +39,7 @@ class ResourceManager:
                 break
         
         return all(finish)
-#updated algo
+
 class BankersAlgorithm:
     def __init__(self, resource_manager):
         self.resource_manager = resource_manager
@@ -81,7 +81,7 @@ class BankersAlgorithm:
             return False
         
         return True
-#corrected a bug
+
 class DeadlockDetector:
     def __init__(self, resource_manager):
         self.resource_manager = resource_manager
@@ -158,7 +158,7 @@ class DeadlockToolkitGUI:
         self.bankers_algorithm = BankersAlgorithm(self.resource_manager)
         self.deadlock_detector = DeadlockDetector(self.resource_manager)
         self.deadlock_recovery = DeadlockRecovery(self.resource_manager)
-#  create_widgets funtion
+#  create_widgets    funtion
     def create_widgets(self):
         main_frame = ttk.Frame(self.root, padding="10")
         main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
